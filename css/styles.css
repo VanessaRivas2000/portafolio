@@ -24,7 +24,13 @@ body {
   padding: 2em;
 }
 .brand {
-  margin-top: -7;
+  display: flex;
+  align-items: center;
+}
+.brand img {
+  width: 100px; 
+  height: auto; 
+  margin-right: 10px; 
 }
 .brand span {
   color: red;
