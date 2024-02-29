@@ -14,15 +14,41 @@ body {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background-color: #191c19;
+  background-color: #2f332f;
   color: #fff;
   font-weight: bold;
 }
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 2em;
+  display: flex; /* Utiliza flexbox para alinear los elementos en una fila */
+  justify-content: space-between; /* Distribuye los elementos horizontalmente */
+  align-items: center; /* Alinea verticalmente los elementos al centro */
+  background-color: #dcd8d8;
+  padding: 0;
+  margin: 0; 
+  padding: 0; 
 }
+.menu {
+  list-style-type: none; /* Elimina los marcadores de lista */
+  margin: 0; /* Elimina el margen predeterminado de la lista */
+  padding: 0; /* Elimina el relleno predeterminado de la lista */
+  display: flex;
+}
+.menu li {
+  margin-right: 20px;
+  }
+.menu a {
+  color: black; /* Cambia el color del texto de los enlaces */
+ font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+  
+}
+
+.menu a:hover {
+  background: red;
+  color: white;
+}
+
 .brand {
   display: flex;
   align-items: center;
@@ -35,28 +61,7 @@ body {
 .brand span {
   color: red;
 }
-.menu {
-  display: flex;
-  width: 50%;
-  justify-content: space-around;
 
-}
-.menu li {
-  list-style: none;
-}
-.menu a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-}
-.menu .active {
-  color: red;
-}
-.menu a:hover {
-  background-color: red;
-  color: #191c19;
-  transition: ease-in 2.s;
-  }
 .main {
   margin: 0 auto;
   width: 80vw;
@@ -94,6 +99,7 @@ span {
   grid-template-columns: repeat(10, 1fr);
   width: 100vw;
   align-items: center;  
+  background-color: #dcd8d8;
 }
 .about img {
   width: 80%;
@@ -101,7 +107,7 @@ span {
 }
 .about-info {
   grid-column: 5/10;
-  padding: 3em;
+  padding: 5em;
   
 }
 .about-info h2 {
@@ -119,6 +125,7 @@ span {
   color: black;
   font-weight: bolder;
   text-align: justify;
+  font-size: 1.2em;
 }
 .about p {
   margin-bottom: 1em;
@@ -131,7 +138,7 @@ span {
 
 .portfolio-headings {
   width: 100vw;
-  padding: 5em;
+  padding: 0.5em;
 }
 .portfolio-headings h2 {
   font-size: 2.5em;
@@ -204,6 +211,7 @@ span {
   width: 300px;
   margin-top: 1em;
 }
+
 
 
 
