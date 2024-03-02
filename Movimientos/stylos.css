@@ -19,7 +19,6 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.4s ease;
   overflow: hidden; /* Evita que las imágenes sobresalgan de las tarjetas */
-  
 }
 
 .card:hover {
@@ -57,4 +56,16 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+}
+
+/* Estilos para el botón "Volver a Sobre Mí" */
+.back-to-top {
+  position: absolute;
+  top: 20px; /* Ajusta según sea necesario */
+  right: 20px; /* Ajusta según sea necesario */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 5px; /* Borde redondeado del botón */
+  text-decoration: none; /* Eliminar subrayado del texto del botón */
 }
