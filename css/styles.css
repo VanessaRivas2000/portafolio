@@ -22,7 +22,7 @@ body {
   display: flex; /* Utiliza flexbox para alinear los elementos en una fila */
   justify-content: space-between; /* Distribuye los elementos horizontalmente */
   align-items: center; /* Alinea verticalmente los elementos al centro */
-  background-color: #dcd8d8;
+  background-color: #ffe2f3;
   padding: 0;
   margin: 0; 
   padding: 0; 
@@ -45,7 +45,7 @@ body {
 }
 
 .menu a:hover {
-  background: red;
+  background: #0cc0df;
   color: white;
 }
 
@@ -59,7 +59,7 @@ body {
   margin-right: 10px; 
 }
 .brand span {
-  color: red;
+  color: #ff3131;
 }
 
 .main {
@@ -74,12 +74,12 @@ h1 {
   font-size: 3em;
 }
 span {
-  color: red
+  color: #ff3131;
   
 }
 .download-cv {
   padding: 10px 20px;
-  background-color: red;
+  background-color: #0cc0df;
   border: none;
   border-radius: 20px;
   margin-top: 10px;
@@ -92,7 +92,7 @@ span {
 }
 .main img {
   width: 350px;
-  border: 7px solid red;
+  border: 7px solid #ff3131;
 }
 .about {
   display: grid;
@@ -107,7 +107,7 @@ span {
 }
 .about-info {
   grid-column: 5/10;
-  padding: 2.6em;
+  padding: 1.6em;
   
 }
 .about-info h2 {
